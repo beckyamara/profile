@@ -1,0 +1,98 @@
+body{
+  background-color: #DFD3C3;
+  font-family: 'Vollkorn', serif;
+  color: #AD6C80;
+  font-size: 16px;
+  line-height: 2px;
+  text-align: center;
+  padding: 25px;
+}
+
+h1{
+  color: #30475E;
+  font-family: 'Permanent Marker', cursive;
+}
+
+p{
+  margin: 30px auto;
+  text-size-adjust: auto;
+}
+
+a{
+  font-size: 20px;
+  transition: 0.3s ease;
+  text-decoration: none;
+  background-color: #2D6187;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  /* box-shadow: 0 0 16px rgba(0, 0, 0, 0.1); */
+}
+
+a:hover{
+  background-color: #70ADB5;
+}
+
+.white-card {
+  background-color: #F0ECE3;
+  height: auto;
+  width: auto%;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 25px auto;
+}
+
+#prof{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%
+}
+
+.containe{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card{
+  background-color: #F0ECE3;
+  height: auto;
+  width: 40%;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 25px auto;
+}
+
+.list-inline{
+  display: inline;
+  padding: 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
